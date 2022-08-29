@@ -1,0 +1,19 @@
+{
+  "name": "vps-431",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-vanilla": "vite dev --config=vite-vanilla.config.ts",
+    "dev-vps": "vite dev --config=vite-vps.config.ts",
+    "dev-glob": "vite dev --config=vite-glob.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "devDependencies": {
+    "vite": "^3.0.9",
+    "vite-plugin-glob": "0.2.8",
+    "vite-plugin-ssr": "^0.4.28"
+  }
+}
